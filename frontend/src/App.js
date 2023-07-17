@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/neptunecss@latest/neptune.min.css"></link>
         <Navbar />
         <div className='pages'>
           <Routes>
